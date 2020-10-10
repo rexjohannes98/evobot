@@ -1,2 +1,12 @@
 ping
 A seek command module, where you can skip to a time stamp. I would find this useful for multi hour long videos
+Please add live stream support.
+Save Songs to a Playlist Feature
+The bot remains in the voice channel forever
+customizable equilizer per server
+bassboost 
+1.add the bot to stay in voice chat or not and bot only use a text channel that we set with channel id in config.(its so annoying bot wont stay in vc or it join any voice chats)
+2.set status be on or off and help in dms or chat.
+3.default volume (it restart in every songs and we should set it again)
+4.dj role for forceskip and vote skip for people in voice chat.
+5.now playing in channel topic( discord have rate limit for this but still its ok)
