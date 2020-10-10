@@ -1,0 +1,2 @@
+ping
+A seek command module, where you can skip to a time stamp. I would find this useful for multi hour long videos
