@@ -1,9 +1,12 @@
-  
 const Discord = require('discord.js');
 let days = 0;
 let week = 0;
 
-exports.run = (client, message, args) =>{
+module.exports = {
+  name: "uptime",
+  cooldown: 3,
+  description: "See the Uptime",
+  async execute(message, args) {
     let uptime = ``;
     let totalSeconds = (client.uptime / 1000);
     let hours = Math.floor(totalSeconds / 3600);
@@ -31,7 +34,7 @@ exports.run = (client, message, args) =>{
 
     uptime += `${days} days, ${hours} hours, ${minutes} minutes and ${seconds} seconds`;
 
-    let serverembed = new Discord.RichEmbed()
+    let serverembed = new Discord.MessageEmbed()
         .setColor("#228B22")
         .setTitle("Here is my uptime!")
         .addField('Uptime', uptime);
