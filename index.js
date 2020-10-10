@@ -4,7 +4,7 @@
 const { Client, Collection } = require("discord.js");
 const { readdirSync } = require("fs");
 const { join } = require("path");
-const { TOKEN, PREFIX } = require("./config.json");
+const { TOKEN, PREFIX, status } = require("./config.json");
 
 const client = new Client({ disableMentions: "everyone" });
 
@@ -20,10 +20,12 @@ const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
  */
 client.on("ready", () => {
   console.log(`${client.user.username} ready!`);
-  client.user.setActivity(`${PREFIX}help`);
+  client.user.setActivity(status);
 });
-client.on("warn", (info) => console.log(info));
-client.on("error", console.error);
+
+client.on("error", (e) => console.error(e));
+client.on("warn", (e) => console.warn(e));
+client.on("debug", (e) => console.info(e));
 
 /**
  * Import all commands
