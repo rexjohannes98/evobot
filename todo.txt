@@ -10,3 +10,4 @@ bassboost
 3.default volume (it restart in every songs and we should set it again)
 4.dj role for forceskip and vote skip for people in voice chat.
 5.now playing in channel topic( discord have rate limit for this but still its ok)
+lyrics
