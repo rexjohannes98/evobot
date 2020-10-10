@@ -11,3 +11,4 @@ bassboost
 4.dj role for forceskip and vote skip for people in voice chat.
 5.now playing in channel topic( discord have rate limit for this but still its ok)
 lyrics
+spotify https://github.com/eritislami/evobot/issues/185
