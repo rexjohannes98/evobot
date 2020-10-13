@@ -18,3 +18,4 @@ Please change the API to "A-Z lyrics".
 The bot should pick random 4 songs from a playlist and ask users to vote for a song to play next.
 lavalink
 join command
+dj system
