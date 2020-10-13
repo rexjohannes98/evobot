@@ -19,3 +19,15 @@ The bot should pick random 4 songs from a playlist and ask users to vote for a s
 lavalink
 join command
 dj system
+vote system
+song counter
+stats
+uptime
+save playlist on reboot
+launcher
+logging
+imporve help
+skipto
+language system
+mashup (mix 2 songs)
+nightcore filter
