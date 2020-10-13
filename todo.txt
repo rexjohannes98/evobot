@@ -12,3 +12,7 @@ bassboost
 5.now playing in channel topic( discord have rate limit for this but still its ok)
 lyrics
 spotify https://github.com/eritislami/evobot/issues/185
+Back/rewind queue or song ⏪
+improve Lyrics finder API by KSoft.Si or manual search lyrics, because some lyrics can't search by youtube title
+Please change the API to "A-Z lyrics".
+The bot should pick random 4 songs from a playlist and ask users to vote for a song to play next.
