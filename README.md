@@ -18,7 +18,7 @@ cd evobot
 npm install
 ```
 
-After installation finishes you can use `node index.js` to start the bot.
+After installation finishes you can use `node shard.js` to start the bot.
 
 ## ⚙️ Configuration
 
